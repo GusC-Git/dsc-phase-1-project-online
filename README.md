@@ -18,10 +18,10 @@ The Data
 
 The Notebooks - will go into detail later below
 * DataCleaning.ipynb - Contains my data cleaning process before the analysis and what produced the files in cleaneddata
-* Phase01ProjectGenreRegion.ipynb - This contains the questions I decided to answer related to the genres and how they affect movie peformance
-* Phase01ProjectInvestmentRatio.ipynb - Here I did a further delve into what makes a project successful by looking at the relationship between production budget and total gross. I then decided to look at that relationship per genre as well
-* Phase01ProjectIdealReleaseTime.ipynb - Contains data in my analysis of if there is an ideal time to release a movie, looking at both the month and day for my analysis
-* Phase01ProjectRisingStars.ipynb - name is a little misleading for what I ended up using it for. Here I looked at what films within the past 5 years have been very successful in ratings with a considerable number of votes and see who are the actors that most appeared in that group. From there, we identified who should be people who we choose to collaborate with
+* Project_Q1_Genres.ipynb - This contains the questions I decided to answer related to the genres and how they affect movie peformance
+* Project_Q2_Investment_ratio.ipynb - Here I did a further delve into what makes a project successful by looking at the relationship between production budget and total gross. I then decided to look at that relationship per genre as well
+* Project_Q3_Ideal_release_time.ipynb - Contains data in my analysis of if there is an ideal time to release a movie, looking at both the month and day for my analysis
+* Project_Q4_Persons_of_interest.ipynb - name is a little misleading for what I ended up using it for. Here I looked at what films within the past 5 years have been very successful in ratings with a considerable number of votes and see who are the actors that most appeared in that group. From there, we identified who should be people who we choose to collaborate with
 
 Other
 * Phase01ProjectSlideDeck.pdf - contains a pdf of my non technical presentation
@@ -36,7 +36,7 @@ Your team is charged with exploring what type of films are currently doing the b
 
 # Notebooks and the questions they answer
 
-## Phase01ProjectGenre
+## Project_Q1_Genres
 ### What genres are highly rated?
 Here we explode the genres column and then group all of our data by the genres. When we look to see what are the highest rated genres, we see that the top 5 genres are News, Documentary, Biography, History, and Music. 
 <img src = "./imagesinreadme/MovieGenresAvgRating.png">
@@ -48,7 +48,7 @@ I looked at worldwide gross average of the genres to see which genres were the h
 <img src= "./imagesinreadme/MovieGenresMeanGross.png">
 <img src= "./imagesinreadme/MovieGenresMedianGross.png">
 
-# Phase01ProjectInvestmentRatio
+# Project_Q2_Investment_ratio
 ## Is There a Relationship Between Production Cost and Gross
 I wanted to see if there was a relationship between the two. We found there to be a positive correlation between the two. The majority of the films just about break even.
 <img src= "./imagesinreadme/ProductionBudgetvGross.png">
@@ -59,7 +59,7 @@ We once again looked at the genres to see which genres had the highest return on
 
 From this we can see that horror movies have the highest rate on this. I believe this is because it does not take much to make a horror movie, unlike an action or adventure movie, which typically have higher production costs for special effects and the like.
 
-# Phase01ProjectIdealReleaseTime
+# Project_Q3_Ideal_release_time
 ## Is there an Ideal Month to release a movie?
 next I wanted to check to see if there is an ideal time in which one should release a movie. I extracted the month data from the release date column and looked at data from the last ten years.
 <img src= "./imagesinreadme/TotalGrossperMonth.png">
@@ -71,7 +71,7 @@ Now that we know of months, we would like to see the same data for days and see 
 <img src= "./imagesinreadme/TotalGrossperWeekday.png">
 From this, we can see that the majority of movies are released on a Friday, an that the days that we should release are Wednesday or Friday
 
-# Phase01ProjectRisingStars
+# Project_Q4_Persons_of_interest
 ## Who are some persons of interest to work with?
 This one I tried to find who has released considerable movies within the last five years that have been both well received and with a considerable number of votes. The data on this eventually did become skewed to the Malayalm cinema industry, and since the actors within that industry mostly do films in India and it appears very culturally-centric, I avoided considering them for this, since we would ideally want to reach a global audience with our films. The two actors I was able to find that fit my requirements were Mark Ruffalo and Andrew Garfield. I recommend we work with them. They are well liked in the films they have appeared in and their movies have been successful. Also, they are currently on a hot streak in terms of releasing, yet still are somewhat under the radar in terms of outright star power
 <img src= "./imagesinreadme/MarkandAndrew.png">
